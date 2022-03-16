@@ -5,8 +5,8 @@ export default class DeviceStore {
         this._types = [
             {id: 1, name: 'Холодильники'},
             {id: 2, name: 'Смартфоны'},
-            {id: 1, name: 'Ноутбуки'},
-            {id: 2, name: 'Телевизоры'}
+            {id: 3, name: 'Ноутбуки'},
+            {id: 4, name: 'Телевизоры'}
         ];
         this._brands = [
             {id: 1, name: 'Samsung'},
