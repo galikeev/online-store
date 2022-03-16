@@ -17,7 +17,8 @@ export default class DeviceStore {
             {id: 2, name: 'iPhone 12 Pro', price: 25000, rating: 5, img: 'https://avatars.mds.yandex.net/get-lpc/1520633/ef2a27b6-800c-4a83-a864-192193c41b38/orig'},
             {id: 3, name: 'iPhone 12 Pro', price: 25000, rating: 5, img: 'https://avatars.mds.yandex.net/get-lpc/1520633/ef2a27b6-800c-4a83-a864-192193c41b38/orig'},
             {id: 4, name: 'iPhone 12 Pro', price: 25000, rating: 5, img: 'https://avatars.mds.yandex.net/get-lpc/1520633/ef2a27b6-800c-4a83-a864-192193c41b38/orig'},
-        ]
+        ];
+        this._selectedType = {};
         makeAutoObservable(this);
     }
 
@@ -31,6 +32,10 @@ export default class DeviceStore {
         this._devices = devices;
     }
 
+    setSelectedType(type) {
+        this._selectedType = type;
+    }
+
     get types() {
         return this._types;
     }
@@ -39,5 +44,8 @@ export default class DeviceStore {
     }
     get devices() {
         return this._devices;
+    }
+    get selectedType() {
+        return this._selectedType;
     }
 }
