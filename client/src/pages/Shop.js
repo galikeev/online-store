@@ -21,6 +21,7 @@ const Shop = observer(() => {
             .then(data => {
                 device.setDevices(data.rows);
             });
+    // eslint-disable-next-line  
     }, []);
 
     return (
