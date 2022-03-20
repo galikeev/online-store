@@ -1,4 +1,4 @@
-# Online-store on PERN stacl
+# Online-store on PERN stack
 
 ## Technologies
 
