@@ -120,14 +120,14 @@ const CreateDevice = observer(({show, onHide}) => {
                                     <Col md={4}>
                                         <Form.Control
                                             value={i.title}
-                                            onChange={(e) => changeInfo('title', e.target.value, i.nubmer)}
+                                            onChange={(e) => changeInfo('title', e.target.value, i.number)}
                                             placeholder='Введите название свойства'
                                         />
                                     </Col>
                                     <Col md={4}>
                                         <Form.Control
                                             value={i.description}
-                                            onChange={(e) => changeInfo('description', e.target.value, i.nubmer)}
+                                            onChange={(e) => changeInfo('description', e.target.value, i.number)}
                                             placeholder='Введите описание свойства'
                                         />
                                     </Col>
