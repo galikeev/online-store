@@ -4,8 +4,9 @@
 
 - JS
 - React
+- MobX
+- Bootstrap
 - Node.js
 - PostgreSQL
 - Express
 - Sequelize
-- Bootstrap
