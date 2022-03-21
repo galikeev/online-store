@@ -7,4 +7,5 @@
 - Node.js
 - PostgreSQL
 - Express
+- Sequelize
 - Bootstrap
